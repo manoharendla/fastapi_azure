@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 router = APIRouter(
-    prefix='/v1/admins'
+    prefix='/v1'
 )
 
 admins = ['admin1', 'admin2', 'aashu']
